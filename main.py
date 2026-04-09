@@ -8,7 +8,7 @@ crew = Crew(
     tasks=[interview_question_task],
 )
 
-role = "Backend Developer"
+role = "AI Engineer"
 level = "senior"
 
 result = crew.kickoff(inputs={"role": role, "level": level})
